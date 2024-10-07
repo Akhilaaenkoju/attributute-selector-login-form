@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.md{
+border: 3px solid rgb(0, 0, 0);
+height: 500px;
+width: 500px;
+padding: 100px;
+margin: auto;
+background-image: url("job ");
+}
+.REGISTRATION FORM{
+border: 20px solid black;
+
+}
+
+[for="fname"]{
+background-color: burlywood;
+font-size: 20px;
+}
+[for~="sname"]{
+background-color: burlywood;
+font-size: 20px;
+}
+
+[for="e-mail"]{
+background-color: burlywood;
+font-size: 20px;
+}
+[for^="ph.no"]{
+background-color: burlywood;
+font-size: 20px;
+}
+[for="dob"]{
+background-color: burlywood;
+font-size: 20px;
+}
+ [for$="d"]{
+background-color: burlywood;
+font-size: 20px; */
+}
+[for|="-dor"]{
+background-color: burlywood;
+font-size: 20px;
+}
+[for="resume"]{
+background-color: burlywood;
+font-size: 20px;
+}
+[for="Gender"]{
+background-color: burlywood;
+font-size: 20px;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="REGISTRATION FORM"></div>
+    <form class="md">
+        <label for="fname">First Name</label>
+        <input id="fname"  placeholder="e.g:John" required>
+<br><br>
+<label for="sname">Second Name</label>
+<input id="sname" required>
+<br><br>
+<label for="e-mail">e-mail</label>
+<input id="e-mail" placeholder=".....@gmail.com" required>
+<br><br>
+<label for="ph.no">Mobile Number</label>
+<input id="ph.no" placeholder="0-9" required>
+<br><br>
+<label for="dob">Date of Birth</label>
+<input id="dob" type="date">
+<br><br>
+<label for="Gender">Gender:</label>
+<input type="radio" id="male" name="Gender" value="male">
+<label for="male">Male</label>
+      
+
+<input type="radio" id="Female" name="Gender" value="Female">
+<label for="Female">Female</label>
+<br><br>
+
+<br><br>
+<label for="add">Address:</label>
+<input id="add" required>
+<br><br>
+<label for="-dor">date of registration:</label>
+<input id="dor" >
+<br><br>
+<label for="resume"> Resume</label>
+<input id="resume" type="file">
+<br><br>
+<input type="submit"> 
+
+    </form>
+   
+</body>
+</html>
